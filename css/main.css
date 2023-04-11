@@ -23,6 +23,7 @@ a {
 header {
   width: 100%;
   position: fixed;
+  top: 0;
   background-color: #f6f5f0;
   border-bottom: 1px solid #c8c8c8;
 }
@@ -182,4 +183,33 @@ header .badges .badge {
   margin-bottom: 12px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
   cursor: pointer;
+}
+
+
+/* VISUAL */
+.visual {
+  margin-top: 120px;
+  background-image: url("../images/visual_bg.jpg");
+}
+.visual .inner {
+  height: 646px;
+  background-color: orange;
+}
+.visual .title{
+
+}
+.visual .cup1.image{
+
+}
+.visual .cup1.text{
+
+}
+.visual .cup2.image{
+
+}
+.visual .cup2.text{
+
+}
+.visual .spoon{
+
 }
