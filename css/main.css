@@ -45,20 +45,20 @@ a {
   color: #333;
 }
 .btn.btn--brown {
-  background-color: #592818;
-  color: #592818;
-}
-.btn.btn--brown {
   background-color: #fff;
   color: #592818;
 }
+.btn.btn--brown:hover {
+  background-color: #592818;
+  color: #fff;
+}
 .btn.btn--gold {
-  background-color: #d9aa8a;
+  background-color: #fff;
   color: #d9aa8a;
 }
 .btn.btn--gold:hover {
-  background-color: #fff;
-  color: #d9aa8a;
+  background-color: #d9aa8a;
+  color: #fff;
 }
 .btn.btn--white {
   background-color: #fff;
@@ -249,6 +249,11 @@ header .badges .badge {
   position: absolute;
   top: 88px;
   left: -10px;
+}
+.visual .title .btn{
+  position: absolute;
+  top: 259px;
+  left: 173px;
 }
 .visual .cup1.image{
   position: absolute;
