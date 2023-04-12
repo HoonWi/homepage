@@ -32,6 +32,42 @@ a {
   display: block;
   transition: .4s;
 }
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.btn.btn--reverse {
+  background-color: #333;
+  color: #fff;
+}
+.btn.btn--reverse:hover {
+  background-color: transparent;
+  color: #333;
+}
+.btn.btn--brown {
+  background-color: #592818;
+  color: #592818;
+}
+.btn.btn--brown {
+  background-color: #fff;
+  color: #592818;
+}
+.btn.btn--gold {
+  background-color: #d9aa8a;
+  color: #d9aa8a;
+}
+.btn.btn--gold:hover {
+  background-color: #fff;
+  color: #d9aa8a;
+}
+.btn.btn--white {
+  background-color: #fff;
+  color: #fff;
+}
+.btn.btn--white:hover {
+  background-color: #fff;
+  color: #333;
+}
 
 /* HEADER */
 header {
