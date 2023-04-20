@@ -40,9 +40,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="./css/main.css" />
 
+  <!-- JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer src="./js/main.js"></script>
+  
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 </head>
 <body>
@@ -419,17 +424,33 @@
 
     <!-- NOTICE LINE -->
     <div class="notice-line">
-      
       <div class="bg-left"></div>
       <div class="bg-right"></div>
       <div class="inner">
+        
         <div class="inner__left">
           <h2>공지사항</h2>
-          <div class="swiper-container"></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">slide1</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">slide2</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">slide3</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">slide4</a>
+              </div>
+            </div>
+          </div>
           <a href="javascript:void(0)" class="notice-line__more">
             <div class="material-icons">add_circle</div>
           </a>
         </div>
+        
         <div class="inner__right">
           <h2>프로모션</h2>
           <div class="toggle-promotion">

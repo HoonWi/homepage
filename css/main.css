@@ -321,10 +321,17 @@ header .badges .badge {
 	font-size: 700;
 	margin-right: 20px;
 }
-.notice .notice-line .inner__left .swiper-container {
+.notice .notice-line .inner__left .swiper {
 	height: 62px;
-	background-color: orange;
 	flex-grow: 1;
+}
+.notice .notice-line .inner__left .swiper .swiper-slide{
+	height: 62px;
+	display: flex;
+	align-items: center;
+}
+.notice .notice-line .inner__left .swiper .swiper-slide a{
+	color: #fff;
 }
 .notice .notice-line .inner__left .notice-line__more {
 	width: 62px;
