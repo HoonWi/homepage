@@ -49,12 +49,27 @@ fadeEls.forEach(function (fadeEl, index) {
 	});
 });
 
-
+// Swiper
 new Swiper('.notice-line .swiper', {
 	direction: 'vertical',
 	autoplay: true,
 	loop: true,
-}
-
-
-);
+});
+new Swiper('.promotion .swiper', {
+	slidesPerView: 3,
+	spaceBetween: 10,
+	centeredSlides: true,
+	loop: true,
+	autoplay: {
+		delay:3000,
+		disableOnInteraction: false,
+	},
+	pagination: {
+		el: '.promotion .swiper-pagination',
+		clickable: true,
+	},
+	navigation: {
+		prevEl: '.swiper-button-prev',
+		nextEl: '.swiper-button-next',
+	},
+});
