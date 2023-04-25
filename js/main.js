@@ -50,12 +50,12 @@ fadeEls.forEach(function (fadeEl, index) {
 });
 
 // Swiper
-new Swiper('.notice-line .swiper', {
+new Swiper('.notice-line .swiper-container', {
 	direction: 'vertical',
 	autoplay: true,
 	loop: true,
 });
-new Swiper('.promotion .swiper', {
+new Swiper('.promotion .swiper-container', {
 	slidesPerView: 3,
 	spaceBetween: 10,
 	centeredSlides: true,
@@ -69,7 +69,7 @@ new Swiper('.promotion .swiper', {
 		clickable: true,
 	},
 	navigation: {
-		prevEl: '.swiper-button-prev',
-		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-prev',
+		nextEl: '.swiper-next',
 	},
 });
