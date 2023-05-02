@@ -29,7 +29,7 @@ a {
 	cursor: pointer;
 	box-sizing: border-box;
 	display: block;
-	transition: 0.4s;
+	transition: .4s;
 }
 .btn:hover {
 	background-color: #333;
@@ -44,28 +44,28 @@ a {
 	color: #333;
 }
 .btn.btn--brown {
-	background-color: #fff;
 	color: #592818;
+	border-color: #592b18;
 }
 .btn.btn--brown:hover {
-	background-color: #592818;
 	color: #fff;
+	background-color: #592818;
 }
 .btn.btn--gold {
-	background-color: transparent;
 	color: #d9aa8a;
+	border-color: #d9aa8a;
 }
 .btn.btn--gold:hover {
-	background-color: #d9aa8a;
 	color: #fff;
+	background-color: #d9aa8a;
 }
 .btn.btn--white {
-	background-color: transparent;
 	color: #fff;
+	border-color: #fff;
 }
 .btn.btn--white:hover {
-	background-color: #fff;
 	color: #333;
+	background-color: #fff;
 }
 
 /* HEADER */
