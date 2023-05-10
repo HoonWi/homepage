@@ -602,6 +602,7 @@ margin-bottom: 10px;
 	background-image: url("../img/favorite_bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	background-size: cover;
 }
 .pick-your-favorite .inner {
@@ -619,4 +620,32 @@ margin-bottom: 10px;
 }
 .pick-your-favorite .text-group .description {
 	margin-bottom: 40px;
+}
+
+
+/* RESERVE STORE */
+.reserve-store {
+	background-image: url("../img/reserve_store_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.reserve-store .inner {
+	height: 600px;	
+}
+.reserve-store .medal {
+
+}
+.reserve-store .medal .front {
+
+}
+.reserve-store .medal .front {
+
+}
+.reserve-store .medal .back {
+
+}
+.reserve-store .medal .back {
+
 }
