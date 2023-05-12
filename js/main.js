@@ -1,9 +1,6 @@
 const searchEl = document.querySelector(".search");
 const searchInputEL = searchEl.querySelector("input");
 
-console.log(searchEl);
-console.log(searchInputEL);
-
 searchEl.addEventListener("click", function () {
 	searchInputEL.focus();
 });
@@ -23,7 +20,7 @@ const badgeEl = document.querySelector("header .badges");
 window.addEventListener(
 	"scroll",
 	_.throttle(function () {
-		console.log(window.scrollY);
+		// console.log(window.scrollY);
 		if (window.scrollY > 500) {
 			// gsap.to(요소, 지속시간, 옵션);
 			gsap.to(badgeEl, 0.6, {
@@ -72,6 +69,16 @@ new Swiper('.promotion .swiper-container', {
 		prevEl: '.promotion .swiper-prev',
 		nextEl: '.promotion .swiper-next',
 	},
+});
+new Swiper('.awards .swiper-container', {
+	autoplay: true,
+	loop: true,
+	spaceBetween: 30,
+	slidesPerView: 5,
+	navigation: {
+		prevEl: '.awards .swiper-prev',
+		nextEl: '.awards .swiper-next'
+	}
 });
 
 // Promotion Toggle Btn
